@@ -1,0 +1,119 @@
+#main_window
+{
+    /* background-color: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #5433FF, stop:1 #20BDFF , stop:1 #A5FECB );
+/* 	
+    background-image: url("image.jpg"); */
+    background-image: url('bg.png'); 
+
+
+}
+
+#frame1
+{
+    /* background-color: white; */
+
+    
+    background: qlineargradient( x1:1 y1:2, x2:1 y2:0, stop:0 #022090, stop:1 #021842);
+    min-width: 320px;
+    min-height: 110;
+    max-width: 320px;
+    max-height: 110;
+    border-radius: 10px;
+
+}
+
+#frame3
+{
+    background-color: #021842;
+    min-width: 380px;
+    min-height: 400;
+    max-width: 380px;
+    max-height: 400;
+    border-radius: 10px;
+
+}
+#frame1_heading
+{
+    color: white;
+    font-family: Times;
+    font-weight: bold;
+     
+    
+}
+#frame2_heading
+{
+    color: white;
+    font-family: Times;
+    font-weight: bold;
+    text-align: center;
+
+}
+#frame2_para
+{
+    color: green;
+    font-family: Serif;
+    font-size: 16px;
+    padding: 18px;
+    text-align: justify;
+    margin-right: 25px;
+}
+
+#back_arrow
+{
+    color: white;
+    font-size: 25px;
+    border-radius:5px;
+    
+}
+#back_arrow:hover
+{
+    background-color: white;
+    color: #202020;
+}
+#new_image1 
+{
+    color: white;
+    font-family: Times;
+}
+#img_path1
+{
+    min-width:150px;
+    max-width:150px;
+    color:#202020;
+}
+#img_path2
+{
+    min-width:150px;
+    max-width:150px;
+    color:#202020;
+}
+#browse_button
+{
+    min-width:45px;
+    max-width:45px;
+    
+}
+#compress_button
+{
+    min-width:95px;
+    max-width:95px;
+    background-color: yellow;
+    padding:4px;
+    font-family: Times;
+
+}
+#compress_button:hover
+{
+    background-color:#021842;
+    color:yellow;
+}
+#combo_box
+{
+    min-width:60px;
+    max-width:60px;
+
+}
+#status
+{
+    color: yellow;
+}
